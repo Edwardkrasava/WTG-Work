@@ -4070,7 +4070,7 @@ figure {
     max-width: 250px;
     width: 100%;
     bottom: -5px;
-    left: 0;
+    left: -1.2;
     animation-duration: 2s;
     animation-delay: 1s;
     padding: 105px 0;
@@ -4083,7 +4083,7 @@ figure {
     bottom: 40%;
     border: 20px solid transparent;
     border-left: 20px solid #ffffff73;
-    right: -16.1%;
+    right: -15.8%;
 }
 
 /* .price_container_header::after {
