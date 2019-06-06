@@ -372,7 +372,7 @@
 			// animateIn: 'fadeIn',
 			active: true,
 			smartSpeed: 1000,
-			autoplay: true,
+			autoplay: false,
 			autoplayHoverPause: true,
 			autoplayTimeout: 5000,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
