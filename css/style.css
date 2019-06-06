@@ -4036,6 +4036,7 @@ figure {
     width: 100%;
     margin: 0 auto;
     position: relative;
+    top: 50%;
 }
 
 .slide_text_container {
@@ -4047,7 +4048,7 @@ figure {
     -webkit-transform: translateX(-50%, -50%);
     animation-duration: 2s;
     animation-delay: 1s;
-    padding: 20px 40px;
+    padding: 20px 70px;
     background: #ffffff73;
 }
 
@@ -4075,7 +4076,7 @@ figure {
     position: absolute;
     max-width: 300px;
     width: 100%;
-    bottom: -10px;
+    bottom: 0;
     left: 0;
     animation-duration: 2s;
     animation-delay: 1s;
@@ -4103,39 +4104,47 @@ figure {
 .wrap_content_price h4 {
     text-transform: uppercase;
     color: #ffffff;
-    line-height: 22px;
-    margin-bottom: 10px;
-    font-size: 22px
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .wrap_content_price p {
     color: #cccccc;
-    margin-bottom: 10px;
-    font-size: 17px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .wrap_content_price span {
     color: #ffffff;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
-.wrap_content_price button {
-    color: #cccccc;
+.button_price_header {
     background: inherit;
     border: 1px solid #ffffff;
+    padding: 5px;
 }
 
-.wrap_content_price button a {
-    color: #cccccc;
-    padding: 15px 20px;
-    font-size: 16px;
+.a_price_header {
+    color: #ffffff;
+    margin: 20px 20px;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.wrap_content_price button a:hover {
-    color: #ffffff;
+.button_price_header:hover {
+    background: #ffffff;
+    border: 1px solid #032fab99;
+}
+
+.button_price_header:hover .a_price_header {
+    color: #032fab99;
+}
+
+.a_price_header:hover {
+    color: #032fab99;
 }
 
 /* .price_container_header::after {
