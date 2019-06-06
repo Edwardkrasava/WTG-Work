@@ -4058,22 +4058,23 @@ figure {
     padding-bottom: 15px;
 }
 
+.container_price_header {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
 
 .price_container_header {
     position: absolute;
-    width: 18%;
-    height: 36%;
-    top: 46%;
-    left: 14.5%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translateX(-50%, -50%);
-    -webkit-transform: translateX(-50%, -50%);
+    max-width: 250px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
     animation-duration: 2s;
     animation-delay: 1s;
     padding: 105px 0;
     background: #ffffff73;
-    border: none;
-    box-sizing: border-box;
 }
 
 .price_container_header::after {
@@ -4082,8 +4083,7 @@ figure {
     bottom: 40%;
     border: 20px solid transparent;
     border-left: 20px solid #ffffff73;
-    right: -16.3%;
-    box-sizing: border-box;
+    right: -16.1%;
 }
 
 /* .price_container_header::after {
