@@ -5227,6 +5227,14 @@ figure {
     }
 }
 
+/* End styles preloader */
+
+
+
+
+
+
+
 
 /* Callback form styles */
 
@@ -5389,7 +5397,7 @@ figure {
     max-width: 300px;
     width: 100%;
     background: #006aff;
-    padding: 5px 0;
+    padding: 9px 0;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -5447,11 +5455,8 @@ input[type=text]:focus {
 } */
 
 
-/* Map styles */
 
-.wrapper_map_section {
-    margin: 0 auto;
-}
+
 
 /* Footer styles */
 
