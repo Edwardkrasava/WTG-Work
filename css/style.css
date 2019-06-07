@@ -4026,6 +4026,16 @@ figure {
 /*===================================================================================================DEN*/
 
 
+.fa-angle-left,
+.fa-angle-right {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translateX(-50%, -50%);
+    -webkit-transform: translateX(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
 .container_price_header {
     max-width: 1200px;
     width: 100%;
@@ -4203,6 +4213,14 @@ figure {
 .a_price_header:hover {
     color: #032fab99;
 }
+
+
+
+
+
+
+
+
 
 /* .price_container_header::after {
     content: ''; 
