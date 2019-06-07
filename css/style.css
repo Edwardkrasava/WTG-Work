@@ -3190,7 +3190,6 @@ figure {
 
 .blog-details-content .content-style-one .img-box img {
     width: 100%;
-    >>>>>>>a4631f955981c3c07170f9ef7cc4133982c781be
 }
 
 .main-slider .owl-controls .owl-nav .owl-prev {
@@ -3772,7 +3771,7 @@ figure {
 /* Changed animation box item by Holiney */
 
 
->>>>>>>a4631f955981c3c07170f9ef7cc4133982c781be .property_overview .single-item .fix_size_svg {
+.property_overview .single-item .fix_size_svg {
     margin-bottom: 0;
 }
 
@@ -4067,6 +4066,26 @@ figure {
     padding-bottom: 15px;
 }
 
+.container_price_header .price_container_header_right {
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+    bottom: -15px;
+    right: 0;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    background: #ffffff80;
+}
+
+.container_price_header .price_container_header_right::after {
+    content: '';
+    position: absolute;
+    bottom: 40%;
+    border: 20px solid transparent;	
+    border-right: 20px solid #ffffff80;
+    left: -13.3%;
+}
+
 .container_price_header .price_container_header {
     position: absolute;
     max-width: 300px;
@@ -4078,7 +4097,7 @@ figure {
     background: #032fab99;
 }
 
-.price_container_header::after {
+.container_price_header .price_container_header::after {
     content: '';
     position: absolute;
     bottom: 40%;
@@ -4087,6 +4106,7 @@ figure {
     right: -13.4%;
 }
 
+.price_container_header_right .wrap_content_price,
 .price_container_header .wrap_content_price {
     display: flex;
     flex-direction: column;
@@ -4096,11 +4116,21 @@ figure {
     font-family: 'Segoe UI_Semilight';
 }
 
+.price_container_header_right .wrap_content_price {
+    align-items: flex-end;
+    text-align: right;
+    margin: 15px 20px 15px 0;
+}
+
 .wrap_content_price h4 {
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 30px;
+}
+
+.price_container_header_right .wrap_content_price h4 {
+    color: #333333;
 }
 
 .wrap_content_price p {
@@ -4109,16 +4139,33 @@ figure {
     font-size: 20px;
 }
 
+.price_container_header_right .wrap_content_price p {
+    color: #666666;
+}
+
 .wrap_content_price span {
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 25px;
 }
 
+.price_container_header_right .wrap_content_price span {
+    color: #032fab;
+}
+
 .button_price_header {
     background: inherit;
     border: 1px solid #ffffff;
     padding: 5px;
+}
+
+.price_container_header_right .wrap_content_price .button_price_header {
+    background: #032fab;
+}
+
+.price_container_header_right .wrap_content_price .button_price_header:hover {
+    background: inherit;
+    border: 1px solid #032fab;
 }
 
 .a_price_header {
@@ -4128,6 +4175,18 @@ figure {
     text-transform: uppercase;
     text-decoration: none;
     transition: none;
+}
+
+.price_container_header_right .wrap_content_price .a_price_header {
+    color: #cccccc;
+}
+
+.price_container_header_right .wrap_content_price .a_price_header:hover {
+    color: #032fab;
+}
+
+.price_container_header_right .wrap_content_price .button_price_header:hover .a_price_header {
+    color: #032fab;
 }
 
 .button_price_header:hover {
