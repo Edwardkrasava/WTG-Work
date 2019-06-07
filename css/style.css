@@ -5931,12 +5931,25 @@ footer {
 /* PARALLAX CLIENTS */
 
 .parallax_clients {
-    height: 200px;
+    height: 250px;
     background-image: url('../images/background/count.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax_clients .property_overview_clients {
+    padding-top: 35px;
+}
+
+.property_overview_clients .single-item {
+    background: #000000a6;
+    color: white;
+}
+
+.property_overview_clients .single-item .number {
+    color: white;
 }
 
 /* PARALLAX CLIENTS */
