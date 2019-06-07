@@ -543,14 +543,93 @@ new jBox('Modal', {
 //========================================================================= DEN
 
 //========================================================================= DEN
-//    Tilt options
+//   						Manager Slider
 //========================================================================= DEN
-$('.card_manager').tilt({
-	glare: true,
-	maxGlare: .2
-})
+$('.manager_slider').slick({
+	infinite: true,
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	// autoplay: true,
+	// autoplaySpeed: 3000,
+	// dots: true,
+	arrows: false,
+	cssEase: 'ease-out',
+	dotsClass: "slider-dots",
+	responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2
+			}
+		},
+		{
+			breakpoint: 576,
+			settings: {
+				slidesToShow: 2
+			}
+		},
+		{
+			breakpoint: 440,
+			settings: {
+				slidesToShow: 1
+			}
+		}
+	]
+});
 //========================================================================= DEN
-//   								 END
+//  								END
+//========================================================================= DEN
+
+//========================================================================= DEN
+//   						Feedback Slider
+//========================================================================= DEN
+// $('.feedback_slider').owlCarousel({
+// 	loop: true,
+// 	margin: 10,
+// 	nav: true,
+// 	dots: true,
+// 	autoplay: 4000,
+// 	// navText: [ '<span class="fa fa-long-arrow-left"></span>', '<span class="fa fa-long-arrow-right"></span>' ],
+// 	responsive:{
+// 		0:{
+// 			items:1
+// 		},
+// 		600:{
+// 			items:3
+// 		},
+// 		1000:{
+// 			items:3
+// 		}
+// 	}
+// })
+$('.feedback_slider').slick({
+	infinite: true,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	dots: true,
+	arrows: false,
+	cssEase: 'linear',
+	dotsClass: "slider-dots",
+	responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}
+		}
+	]
+});
+//========================================================================= DEN
+//  								END
 //========================================================================= DEN
 
 // HOLINEY CODE FOR ANIMATION INPUTS
