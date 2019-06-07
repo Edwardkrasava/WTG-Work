@@ -4025,12 +4025,6 @@ figure {
 /*===================================================================================================DEN*/
 
 
-.container_text_header {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 .container_price_header {
     max-width: 1200px;
     width: 100%;
@@ -4039,17 +4033,18 @@ figure {
     top: 50%;
 }
 
-.slide_text_container {
+.container_price_header .slide_text_container {
     position: absolute;
-    top: 50%;
+    bottom: -70px;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translateX(-50%, -50%);
     -webkit-transform: translateX(-50%, -50%);
     animation-duration: 2s;
     animation-delay: 1s;
-    padding: 20px 70px;
+    padding: 15px 0;
     background: #ffffff73;
+    width: 100%;
 }
 
 .slide_text_container h1 {
@@ -4076,7 +4071,7 @@ figure {
     position: absolute;
     max-width: 300px;
     width: 100%;
-    bottom: 0;
+    bottom: -15px;
     left: 0;
     animation-duration: 2s;
     animation-delay: 1s;
@@ -4132,6 +4127,7 @@ figure {
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: none;
 }
 
 .button_price_header:hover {
