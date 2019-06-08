@@ -5118,15 +5118,16 @@ figure {
     overflow: hidden;
     border-radius: 0 !important;
     margin: 0 5px;
+    border: 2px solid rgba(0, 0, 0, 0.125);
 }
 @media (max-width: 576px){
     .card_manager {
         max-width: 50%;
     }
 }
-.card_manager:hover {
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.16);
-}
+/*.card_manager:hover {*/
+    /*box-shadow: 0 5px 10px 0 rgba(0,0,0,.16);*/
+/*}*/
 .img_manager {
     overflow: hidden;
 }
@@ -5376,6 +5377,103 @@ figure {
 /*===================================================================================================DEN*/
 /*END*/
 /*===================================================================================================DEN*/
+
+/*===================================================================================================DEN*/
+/*Adaptive*/
+/*===================================================================================================DEN*/
+@media (max-width: 992px){
+    /*main header*/
+    .main-header {
+        position: absolute;
+        top: 0;
+    }
+    /*.menu_top {*/
+        /*position: relative;*/
+    /*}*/
+    /*.menu-area {*/
+        /*right: 0;*/
+        /*position: absolute;*/
+    /*}*/
+    .main-header .logo-box a img{
+        width: 100%;
+    }
+    .navbar-toggle{
+        display: block !important;
+        margin-left: auto !important;
+        padding-right: 0 !important;
+    }
+    .navbar-toggle span {
+        background: #fff !important;
+        height: 3px !important;
+    }
+    .flag_list {
+        width: 35%;
+    }
+    .small-logo-box {
+        padding: 7px 0;
+    }
+    /*count*/
+    .content-box {
+        width: 100% !important;
+        padding: 10px 5px !important;
+    }
+    .number {
+        font-size: 18px !important;
+    }
+    /*gallery*/
+    .gallery_container ul {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px){
+    /*main header*/
+    .flag_list {
+        width: 45%;
+    }
+    .info li a {
+        font-size: 12px !important;
+        /*line-height: 14px !important;*/
+    }
+    .header-top .social-links a {
+        width: 20px !important;
+    }
+    .logo-box {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    /*count*/
+    .content-box {
+        width: 100% !important;
+        padding: 10px 5px !important;
+    }
+    .number {
+        font-size: 18px !important;
+    }
+    /*gallery*/
+    .gallery_container ul .filter{
+        padding: 3px 7px;
+    }
+    .single-item {
+        width: 100%;
+    }
+    .property_overview .single-item .icon-box img {
+        width: 15%;
+    }
+}
+@media (max-width: 576px){
+    /*main header*/
+    .header-top ul li {
+        padding: 0px 2px !important;
+    }
+    /*gallery*/
+    .filter-tabs li{
+        font-size: 12px;
+    }
+}
+/*===================================================================================================DEN*/
+/*END*/
+/*===================================================================================================DEN*/
+
 
 /* СТИЛІ ДЕНИСА МОЛОДШОГО */
 /* СТИЛІ ДЕНИСА МОЛОДШОГО */
