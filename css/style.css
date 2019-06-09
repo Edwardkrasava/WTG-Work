@@ -5465,9 +5465,76 @@ figure {
     .header-top ul li {
         padding: 0px 2px !important;
     }
+    .header-top-flags,
+    .header-top {
+        display: none !important;
+    }
+    .navbar-header{
+        width: 100% !important;
+        background: rgba(3, 47, 171, 0.8) !important;
+    }
+    .logo-box {
+        padding: 9px 10px !important;
+    }
+    .logo-box img {
+        width: 69% !important;
+    }
+    .navbar-toggle {
+        margin-right: 10px !important;
+    }
+    .sticky-header .navbar-header {
+        background: #006aff !important;
+    }
+    .main-header .small-logo-box {
+        display: block  !important;
+    }
+    .main-header .small-logo-box img {
+        width: 85% !important;
+    }
+    /*main slider*/
+    .slide_text_container h1{
+        font-size: 35px;
+    }
+    .slide_text_container h2{
+        font-size: 20px;
+    }
+    .search_container {
+        display: none;
+    }
+    .owl-nav {
+        display: none;
+    }
     /*gallery*/
+    .filter-tabs {
+        display: flex;
+        flex-direction: column;
+    }
     .filter-tabs li{
         font-size: 10px !important;
+    }
+    .search_section {
+        padding-top: 20px;
+    }
+    /*managers*/
+    .team_managers {
+        padding: 20px 0px;
+    }
+    .separator, .small-separator {
+        display: none;
+    }
+    .head_section_text h2 {
+        margin-bottom: 20px;
+    }
+    /*modal*/
+    .search_open_btn {
+        display: none !important;
+    }
+    .scroll-top {
+        bottom: 20px;
+        right: 20px;
+        width: 25px;
+        height: 25px;
+        line-height: 22px;
     }
 }
 /*===================================================================================================DEN*/
